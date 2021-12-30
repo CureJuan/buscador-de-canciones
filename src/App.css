@@ -1,0 +1,142 @@
+html,body{
+  margin:0;
+  padding:0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  padding: 1%;
+  height: 20vmin;
+  pointer-events: none;
+  margin:inherit;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Titulo{
+  color: #d89312;
+  text-shadow: 3px 3px #2b4374;
+  margin:inherit;
+}
+
+@media screen and (min-width:1024px){
+  .grid-1-2{
+      display: flow-root;
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+      gap: 1rem;
+      border-spacing: 0;
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center;
+      justify-items: center;
+  }
+}
+
+img {
+  max-width: 300px;
+  height: 50%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.App-article {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(144, 194, 252);
+}
+p {
+  color:#c9c9c9;
+  font-size: 15px;
+  padding: 2px;
+  margin: 10px;
+  flex-direction: column;
+}
+.letra{
+  color:antiquewhite;
+  font-size: 18px;
+  flex-direction: column;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: 20px;
+  display: inline-flex;
+  width: 40%;
+  margin: 5%
+} 
+
+a {
+  text-decoration: none;
+  padding: 15px;
+  flex-direction: column;
+}
+h3{
+  margin: 0px 0px 0% 5%;
+}
+.artista{
+  color:#117897;
+  text-shadow: 1px 1px #b7d0e9;
+  margin: revert;
+  justify-content: center;
+  display: flex;
+}
+.artista-sec{
+  width: max-content;
+}
+.tit{
+  color:khaki;
+  text-shadow: 3px 3px #2b4374;
+}
+.home{
+  color:rgb(129, 129, 129);
+  width: 40%;
+  height: 50%;
+  margin: 80%
+}
+.home:hover{
+  color:rgb(5, 145, 5);
+}
+.listado { 
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  text-shadow: 3px 3px #2b4374;
+}
+
+footer{
+align-self: flex-end;
+color:#282c34;
+background-color: rgba(120, 120, 120, 0.678);
+line-height: 3;
+text-align:center;
+width: 100%;
+}

@@ -1,0 +1,99 @@
+
+span {
+  position: relative;
+  display: inline-block;
+  margin: 20px 10px;
+}
+.datos{
+    box-sizing: border-box;
+    color:rgb(232, 238, 153);
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    outline: 0;
+    display: inline-block;
+    width: 100%;
+    font-size: 1rem;
+    background-color: transparent;
+  }
+.datos:hover{
+    color:khaki;
+    background: #3f413fa1;
+  }
+
+  .enviar{
+    color: rgb(126, 236, 35);
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    outline: 0;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: #46b83733;
+  }
+  .enviar:hover{
+    background-color: #0d5304a1;
+    color:rgb(191, 238, 153)
+  }
+
+ .grabar{
+    box-sizing: border-box;
+    color: rgb(146, 152, 247);
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    outline: 0;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: #3789b833;
+    border: none;
+    cursor: pointer;
+  }
+  .grabar:hover{
+    color: rgb(193, 196, 241);
+    background-color: #405663;
+  }
+
+.grabar:disabled{
+    border-color: rgba(118,118,118,0.3);
+    color: rgba(16,16,16,0.3);
+    background-color: rgba(239,239,239,0.3);
+    cursor: default;
+  }
+  .ver{
+    margin: 10px;
+    color: rgb(126, 236, 35);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    outline: 0;
+    line-height: 1;
+    background-color: #46b83733;
+  }
+  .ver:hover{
+    background-color: #0d5304a1;
+    color:rgb(191, 238, 153)
+  }
+  .eliminar{
+    color: rgb(236, 35, 35);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    outline: 0;
+    line-height: 1;
+    background-color: #b8553733;
+  }
+  .eliminar:hover{
+    background-color: #530404a1;
+    color:rgb(238, 153, 153)
+  }
+table { 
+    text-align: center; 
+    border : 1px solid gray; 
+    border-spacing: 25px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+} 
